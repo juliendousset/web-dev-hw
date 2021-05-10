@@ -1,0 +1,5 @@
+1. The Internet is a network of computers, and the web is a part of the internet. The web shares information that can be viewed on browsers.
+2. The internet works with wires spanning vast distances where servers are connected to them holding the files for webpages for people to access.
+People access the internet through internet service providers.
+3. Directories are folder structures to show where different files are and how they are organized.
+4. Using VCS is helpful because it allows for better collaberation between people on a project and to more easily be able to revert changes that don't work.
