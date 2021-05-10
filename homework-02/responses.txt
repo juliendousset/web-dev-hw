@@ -1,0 +1,6 @@
+1. One way that data travels on the internet is through Fiber Optic Cables. Because it is using light, it is able to send information over long distances and is great for the internet.
+2. The Domain Name System is a way for URLs to get the IP Address of a website to actually visit the website.
+3. A cookie is a file that browsers save so that websites recognize who is accessing that website.
+4. The first part is HTTP or HTTPS which is a protocal that determines how the computer and the server will talk to eachother.
+Then there is the domain and the .com or .org etc. These are unique so that you only go to the specific website you want to go to
+Finally there is the directories that determine which files to look at on the files server.
