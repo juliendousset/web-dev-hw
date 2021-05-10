@@ -1,2 +1,2 @@
-# web-dev-hw
-Where my Intro to Web Design Assignments will be submitted
+# Julien Dousset
+I love running and reading and I am a media arts major.
