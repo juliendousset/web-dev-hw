@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Contact Page for Homework 8">
+        <meta name="author" content="Julien Dousset">
+        <meta name="keywords" content="Homework 8, University of Montana, Contact">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <!-- Header for Each Page -->
+            <nav id="header" class="header">
+                <h1>Contact</h1>
+                <a href="./index.html" style="background-color: white; color: black">Home</a>
+                <a href="./about.html" style="background-color: white; color: black">About</a>
+                <a href="./contact.html" style="background-color: black; color: white">Contact</a>
+            </nav>
+            <br>
+            <!-- Contact Me Form -->
+            <form action="" methods="post" id="contactMeForm">
+                <fieldset>
+                    <legend><strong>Contact Me</strong></legend>
+                    <label>First Name:</label>
+                        <input type="text" name="firstname" id="firstname" maxlength="10" placeholder="My First Name">
+                    <br>
+                    <label>Email Address:</label>
+                        <input type="email" name="email" id="emailaddress" maxlength="20" placeholder="My E-Mail"/>
+                    <br>
+                    <label>Enter Your Comments Below</label>
+                    <br>
+                        <textarea cols="50" rows="4" placeholder="Comments" maxlength="200"></textarea>
+                    <br>
+                        <input type="image" src="./images/send.png" alt="Send" title="Send" width="50" height="30">
+                </fieldset>
+            </form>
+            <br>
+            <!-- Contact Info -->
+            <div id="contactinfo">
+                <h2>Contact Me</h2>
+                <a href="mailto:julien.dousset@umconnect.umt.edu"><img src="./images/email-logo.PNG" alt="My Email" title="My Email" width="30" height="30"/></a>
+                <address>
+                    University of Montana<br />
+                    32 Campus Drive<br />
+                    Missoula, MT 59812
+                </address>
+            </div>
+        </div>
+    </body>
+</html>

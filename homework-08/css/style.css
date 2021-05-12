@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    padding: 5px;
+}
+
+legend {
+    font-size: 25px;
+}
+
+.instructions {
+    float: left;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.images {
+    float: right;
+    padding: 15px;
+}
+
+.header {
+    background-color: rgb(150, 180, 166);
+    text-align: center;
+    padding: 15px;
+}
