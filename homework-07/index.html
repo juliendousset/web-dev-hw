@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="A website showing a song by Pomme and was made for my Web Design class">
+        <meta name="author" content="Julien Dousset">
+        <meta name="keywords" content="Pomme, La Musique, Une Chanson, Web Development, School Project">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Une Chanson</title>
+        <style>
+            body {
+                background-color: rgb(159, 252, 208);
+                text-align: center;
+            }
+            .container {
+                background-color: white;
+                width: 60%;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid black;
+            }
+            .header {
+                position: fixed;
+                background-color: white;
+                width: 15%;
+                margin: 0px;
+                padding: 20px;
+                border: 1px solid black;
+            }
+            .lyrics p, pre {
+                background-color: rgb(159, 252, 208);
+                color: white;
+                font-size: 20px;
+                font-family: Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <!-- Title -->
+            <div class="header">
+                <h1>Une Chanson</h1>
+            </div>
+            <!-- Album Cover -->
+            <div class="container" id="art">
+                <h2>Album Cover</h2>
+                <img src="./images/albumcover.jfif" alt="Album Cover" title="Album Cover" width="300" height="300"/>
+            </div>
+            <!-- YouTube Music Video -->
+            <div class="container" id="video">
+                <h2>YouTube Video</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XsqB-AYs_ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+            <!-- Spotify Song -->
+            <div class="container" id="audio">
+                <h2>Spotify Song</h2>
+                <iframe src="https://open.spotify.com/embed/track/7a4p8nHHsQ9VE4JRqY7B0y" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <!-- Lyrics -->
+            <div class="container lyrics" id="art">
+                <h2>Lyrics</h2>
+                <p>
+                    [Couplet 1]
+                    <br>
+                    Voilà qu’on pleure autour d’une croix
+                    <br>
+                    Qu’on jette des fleurs, qu’on parle de moi
+                    <br>
+                    C’est une belle journée d’été
+                    <br>
+                    Tout le monde s’est habillé
+                </p>
+                <p>
+                    [Couplet 2]
+                    <br>
+                    Les mots qui sortent, qu’on n'disait pas
+                    <br>
+                    Le vent les apporte jusqu’à moi
+                    <br>
+                    Tout paraît si limpide, si limpide, limpide
+                    <br>
+                    Vu de là-haut
+                </p>
+                <p>
+                    [Refrain]
+                    <br>
+                    De là-haut, je vous vois si petits
+                    <br>
+                    Tout là-haut, ma peine s’évanouit
+                    <br>
+                    Tout là-haut, des visions inouïes
+                    <br>
+                    Du soleil qui mange la pluie
+                </p>
+                <p>
+                    [Couplet 3]
+                    <br>
+                    J’ai brisé le lien qui me tenait
+                    <br>
+                    Le nœud quotidien, je l’ai défait
+                    <br>
+                    Tout paraît si futile, si futile, futile
+                    <br>
+                    Vu de là-haut
+                </p>
+                <p>
+                    [Couplet 4]
+                    <br>
+                    Séchez vos larmes, dormez en paix
+                    <br>
+                    Je pars sans drame, et sans regret
+                    <br>
+                    Mais c’est facile, si facile, facile à dire
+                    <br>
+                    Vu de là-haut
+                </p>
+                <p>
+                    [Refrain]
+                    <br>
+                    De là-haut, je vous vois si petits
+                    <br>
+                    Tout là-haut, ma peine s’évanouit
+                    <br>
+                    Tout là-haut, des visions inouïes
+                    <br>
+                    Du soleil qui mange la pluie
+                </p>
+                <p>
+                    [Pont]
+                </p>
+                <p>
+                    [Refrain]
+                    <br>
+                    De là-haut, je vous vois si petits
+                    <br>
+                    Tout là-haut, ma peine s’évanouit
+                    <br>
+                    Tout là-haut, des visions inouïes
+                    <br>
+                    Du soleil qui mange la pluie
+                </p>
+                <p>
+                    [Outro]
+                </p>
+            </div>
+            <!-- Copyright Section -->
+            <div class="container" id="copyright">
+                <h2>Copyright</h2>
+                <p>I do not own the material on this website, and it was used for a school project at the University of Montana</p>
+                <video poster="./images/mart-logo-poster.jpg" title="Media Arts Logo" width="400" height="240" preload controls loop>
+                    <source src="./media/mart-logo-animated.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+                    <source src="./media/mart-logo-animated.webm" type='video/webm;codecs="vp8, vorbis"'>
+                    <p>Media Arts Logo</p>
+                    <p>Sorry, your browser does not support the video tag.</p>
+                </video>
+                <h2>University of Montana Google Maps</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.167763266562!2d-113.98739678414063!3d46.860070847239854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcc33f19815cb%3A0x9c296b8546ca9abf!2sUniversit%C3%A9%20du%20Montana!5e0!3m2!1sfr!2sus!4v1620786795676!5m2!1sfr!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </body>
+</html>
