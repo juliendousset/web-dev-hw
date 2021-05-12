@@ -26,12 +26,14 @@ th {
 }
 
 .instructions {
+    width: 60%;
     float: left;
     padding: 15px;
     font-size: 20px;
 }
 
 .images {
+    width: 30%;
     float: right;
     padding: 15px;
 }
