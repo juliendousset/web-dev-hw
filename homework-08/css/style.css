@@ -8,10 +8,21 @@ h1 {
 
 a {
     padding: 5px;
+    font-size:20px;
 }
 
 legend {
     font-size: 25px;
+}
+
+table, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    padding: 5px;
+    font-size: 20px;
 }
 
 .instructions {
