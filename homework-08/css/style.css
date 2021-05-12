@@ -26,20 +26,38 @@ th {
 }
 
 .instructions {
-    width: 60%;
+    width: 45%;
     float: left;
     padding: 15px;
     font-size: 20px;
 }
 
 .images {
-    width: 30%;
+    border: 1px solid black;
+    width: 45%;
     float: right;
     padding: 15px;
+    display: flex;
+}
+
+.column {
+    flex: 22%;
+    padding: 5px;
 }
 
 .header {
-    background-color: rgb(150, 180, 166);
+    background-color: rgb(184, 245, 216);
+    text-align: center;
+    padding: 15px;
+}
+
+.firstheader {
+    position: fixed;
+    top: 50%;
+    margin-top: -220px;
+    left: 50%;
+    margin-left: -405px;
+    background-color: rgb(184, 245, 216);
     text-align: center;
     padding: 15px;
 }
