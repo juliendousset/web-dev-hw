@@ -1,0 +1,45 @@
+/* Overall website Styles */
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* Specific Styles for different Elements */
+
+#breathless {
+    background-color: rgba(199, 126, 126, 0.5);
+}
+
+#pierrot {
+    background-color: rgba(88, 119, 211, 0.5);
+}
+
+#alphaville {
+    background-color: rgba(0, 0, 0.5);
+}
+
+.colors {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    height: 750px;
+    display: flex;
+}
+
+h2.colors {
+    font-weight: bold;
+}
+
+.column {
+    flex: 22%;
+    padding: 30px;
+}
