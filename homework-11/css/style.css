@@ -50,6 +50,7 @@ nav {
     color: white;
     box-shadow: -10px 0 6px rgb(143, 143, 143);
     padding-top: 25px;
+    overflow: scroll;
 }
 
 .navlogo {
