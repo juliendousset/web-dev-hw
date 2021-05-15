@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.mainbody {
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 0 0 18px #ccc;
+}
+
+a {
+    font-family: 'FjallaOne', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Navigation Toggle */
+#sidebartoggle {
+    top: 25px;
+    right: 220px;
+    margin-top: 10px;
+    box-shadow: 0 0 18px rgb(105, 105, 105);
+    position: fixed;
+}
+
+.sidebar {
+    display: none;
+}
+
+#sidebartoggle:hover + .sidebar, .sidebar:hover {
+    display: block;
+}
+
+
+/* Navigation Menu CSS */
+nav {
+    background-color: rgb(40,40,40);
+    position: fixed;
+    width: 450px;
+    height: 100%;
+    top: 0;
+    right: 50px;
+    color: white;
+    box-shadow: -10px 0 6px rgb(143, 143, 143);
+    padding-top: 25px;
+}
+
+.navlogo {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+nav a {
+    font-family: 'FjallaOne', sans-serif;
+    color: rgb(255,255, 255);
+    font-size: 25px;
+    line-height: 45px;
+    display: block;
+    padding: 10px;
+    margin: 40px;
+    letter-spacing: 8px;
+}
+
+nav a:hover {
+    font-size: 30px;
+    box-shadow: 0 0 18px rgb(65, 65, 65);
+    margin: 20px;
+}
+
+#webpagenav {
+    margin-top: 40px;
+}
+
+
+/* Header CSS */
+#header {
+    border-radius: 5em 20em 80em 3em / 12em 6em 12em 3em;
+    background-color: rgb(40,40,40);
+    color: rgb(255,255, 255);
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    width: 50%;
+    margin-right: 250px;
+    box-shadow: 0 0 18px rgb(105, 105, 105);
+    position:fixed;
+}
+
+#header h1, h2 {
+    font-family: 'FjallaOne', sans-serif;
+    margin: 5px;
+    letter-spacing: 4px;
+}
+
+#header h1 {
+    font-size: 50px;
+}
+
+#header h2 {
+    font-size: 20px;
+}
+
+.mainimage {
+    width: 120%;
+    margin-left: -10%;
+    height: auto;
+}
+
+
+/* Containers for Different Elements for the Page */
+.container {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    text-align: center;
+}
+
+.container h2,a {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* PDF Section CSS */
+.pdf a:hover{
+    box-shadow: 0 0     18px rgb(65, 65, 65);
+    background-color: white;
+    color: rgb(40,40,40);
+}
+
+.pdf a {
+    background-color: rgb(40,40,40);
+    color: white;
+    padding: 10px;
+}
+
+
+/* CSS for Social Links at the Bottom of the Page */
+#socials  {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#socials p {
+    font-size: 20px;
+}
