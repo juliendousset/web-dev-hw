@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+}
+
+h1, h2 {
+    font-family: 'FjallaOne', sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+
+h1::first-letter {
+    font-size: 80px;
+}
+
+strong {
+    font-family: 'FjallaOne', sans-serif;
+}
+
+strong:hover {
+    color: darkred;
+}
+
+p:hover {
+    color: darkblue;
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+
+a {
+    background-color: black;
+    color: lightgray;
+    padding: 5px
+}
+
+a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+#story {
+    background-color: lightgray;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+}
