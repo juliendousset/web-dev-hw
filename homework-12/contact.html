@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Restaurant Restaurant Contact Page for Homework 12">
+        <meta name="author" content="Julien Dousset">
+        <meta name="keywords" content="Homework 12, University of Montana, Restaurant, Contact">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant Contact Page</title>
+        <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <!-- Dive for the Main Body -->
+        <div class="mainbody">
+            <!-- Sidebar Toggle -->
+            <a href="" id="sidebartoggle"><img src="images/menu_black_24dp.svg  " alt="Logo" title="Logo" width="100" height="100"/></a>
+            <!-- Sidebar -->
+            <nav class="sidebar">
+                <a href="./index.html"><img src="images/menu_black_24dp.svg" alt="Logo" title="Logo" class="navlogo"/></a>
+                <div id="webpagenav">
+                    <a href="./index.html">HOME</a>
+                    <a href="./menu.html">MENU</a>
+                    <a href="./about.html">ABOUT</a>
+                    <a href="./contact.html" class="linkselected">CONTACT</a>
+                </div>
+            </nav>
+            <!-- Header -->
+            <div id="header">
+                <h1>THE RESTAURANT RESTAURANT</h1>
+                <h2>GOURMET RESTAURANT BY JULIEN DOUSSET</h2>
+            </div>
+            <!-- Main Page -->
+            <div class="container">
+                <h1>CONTACT US</h1>
+            </div>
+            <!-- Contact Me Form -->
+            <div class="container">
+                <form action="" methods="post" id="contactMeForm">
+                    <fieldset>
+                        <legend>How was the Food?</legend>
+                        <label>What is your First Name:</label>
+                            <input type="text" name="firstname" id="firstname" maxlength="10" placeholder="My First Name">
+                        <br>
+                        <label>Email Address</label>
+                            <input type="email" name="email" id="emailaddress" placeholder="My E-mail"/>
+                        <br>
+                        <label for="todaydate">Today's Date</label>
+                            <input type="date" name="todaydate" id="todaydate" />
+                        <br>
+                        <label>Enter Your Comments Below</label>
+                        <br>
+                            <textarea cols="50" rows="4" placeholder="Comments" maxlength="200"></textarea>
+                        <br>
+                        <p>We will try to respond in 80 business hours</p>
+                        <input type="image" src="./images/send_black_24dp.svg" width="50" height="30">
+                </fieldset>
+                </form>
+            </div>
+            <!-- Contact Me Info -->
+            <div class="container">
+                <h1>Contact Info</h1>
+                <a href="mailto:restaurant@restaurant.com"><img src="images/email_black_24dp.svg" title="Email Us" alt="Email Us" width="50" height="50"/></a>
+                <address>
+                    The Restaurant Restaurant<br />
+                    1362 Restaurant Street<br />
+                    Missoula, MT 59801<br />
+                    (406) 111-1111
+                </address>
+            </div>
+        </div>
+        <!-- Social Links at the bottom of the Page -->
+        <div id="socials">
+            <a href="https://github.com/juliendousset/web-dev-hw"><img src="images/githublogo.png" width="70" height="70" title="See Github Repo" alt="See Github Repo"></a>
+            <p>Designed By Julien Dousset</p>
+        </div>
+    </body>
+</html>
