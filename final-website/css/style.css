@@ -13,6 +13,117 @@ body {
     box-shadow: 0 0 18px #ccc;
 }
 
+
+/* Website with bigger width */
+@media (min-width:1300px){
+    .mainbody {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+    #header {
+        width: 40%;
+        left: 215px;
+    }
+    #header h1 {
+        font-size: 50px;
+    }
+    #header h2 {
+        font-size: 20px;
+        letter-spacing: 50px;
+    }
+    nav {
+        width: 25%;
+        left: 220px;
+    }
+    nav a {
+        font-size: 20px;
+        letter-spacing: 15px;
+    }
+    nav a:hover {
+        font-size: 25px;
+    }
+    .container h2, a {
+        font-size: 28px;
+    }
+    
+    .container h1 {
+        font-size: 35px;
+    }
+    
+    .container p {
+        font-size: 20px;
+    }
+    
+    .container address {
+        font-size: 20px;
+    }
+    
+    .container legend {
+        font-size: 50px;
+    }
+    .mainimage {
+        width: 110%;
+        margin-left: -5%;
+        height: auto;
+    }
+}
+
+
+/* Website with smaller width */
+@media (max-width:1300px){
+    .mainbody {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    #header {
+        width: 20%;
+        left: 25px;
+    }
+    #header h1 {
+        font-size: 25px;
+    }
+    #header h2 {
+        font-size: 10px;
+        letter-spacing: 15px;
+    }
+    nav {
+        width: 15%;
+        left: 30px;
+    }
+    nav a {
+        font-size: 10px;
+        letter-spacing: 8px;
+    }
+    
+    nav a:hover {
+        font-size: 15px;
+    }
+    .container h2, a {
+        font-size: 20px;
+    }
+    
+    .container h1 {
+        font-size: 28px;
+    }
+    
+    .container p {
+        font-size: 15px;
+    }
+    
+    .container address {
+        font-size: 15px;
+    }
+    
+    .container legend {
+        font-size: 35px;
+    }
+    .mainimage {
+        width: 104%;
+        margin-left: -2%;
+        height: auto;
+    }
+}
+
 a {
     font-family: 'FjallaOne', sans-serif;
     font-size: 25px;
@@ -28,7 +139,6 @@ nav {
     width: 25%;
     height: 480px;
     top: 160px;
-    left: 220px;
     color: white;
     box-shadow: -10px 0 6px rgb(143, 143, 143);
     padding-top: 60px;
@@ -40,16 +150,13 @@ nav {
 nav a {
     font-family: 'FjallaOne', sans-serif;
     color: rgb(255,255, 255);
-    font-size: 20px;
     line-height: 45px;
     display: block;
     padding: 10px;
     margin: 40px;
-    letter-spacing: 15px;
 }
 
 nav a:hover {
-    font-size: 25px;
     box-shadow: 0 0 18px rgb(65, 65, 65);
     margin: 20px;
     background-color: rgb(50, 50, 50);
@@ -77,7 +184,6 @@ nav a:hover {
     margin-right: 250px;
     box-shadow: 0 0 18px rgb(105, 105, 105);
     position:fixed;
-    left: 215px;
     top: 30px;
 }
 
@@ -91,23 +197,11 @@ nav a:hover {
     margin: 5px;
     letter-spacing: 4px;
     color: white;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 #header h1 {
-    font-size: 50px;
     letter-spacing: 10px;
-}
-
-#header h2 {
-    font-size: 20px;
-    letter-spacing: 50px;
-}
-
-.mainimage {
-    width: 120%;
-    margin-left: -10%;
-    height: auto;
 }
 
 
@@ -126,14 +220,12 @@ nav a:hover {
 
 .container h2, a {
     font-family: 'Josefin', sans-serif;
-    font-size: 28px;
     margin-top: 40px;
     margin-bottom: 40px;
     color: black;
 }
 
 .container h1 {
-    font-size: 35px;
     font-family: 'FjallaOne', sans-serif;
     letter-spacing: 12px;
     margin-top: 40px;
@@ -143,9 +235,9 @@ nav a:hover {
 
 .container p {
     font-family: 'Josefin', sans-serif;
-    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    line-height: 25px;
 }
 
 .container a {
@@ -163,17 +255,13 @@ nav a:hover {
     box-shadow: 0 0 18px #ccc;
 }
 
-.container address {
-    font-size: 20px;
-}
-
-.container legend {
-    font-size: 50px;
-}
-
 .portrait {
     height: auto;
     width: 50%
+}
+
+iframe {
+    width: 70%;
 }
 
 
