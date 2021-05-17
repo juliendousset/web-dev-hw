@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 35px
+}
+
+.wrapper {
+    font-family: 'Times New Roman', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    position: fixed;
+    right: 200px;
+}
+
+.form {
+    padding: 100px 0px;
+    position: fixed;
+    right: 200px;
+}
+
+.small {
+    width: 60px;
+}

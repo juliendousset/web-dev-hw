@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding-bottom: 230px;
+    background-color: #f2f2f2;
+}
+
+.mainbody {
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 0 0 18px #ccc;
+}
+
+a {
+    font-family: 'FjallaOne', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation Menu CSS */
+nav {
+    background-color: rgb(40, 40, 40);
+    position: fixed;
+    width: 25%;
+    height: 480px;
+    top: 160px;
+    left: 220px;
+    color: white;
+    box-shadow: -10px 0 6px rgb(143, 143, 143);
+    padding-top: 60px;
+    z-index: 3;
+    display: none;
+    border-radius: 5em 20em 80em 3em / 12em 6em 12em 3em;
+}
+
+nav a {
+    font-family: 'FjallaOne', sans-serif;
+    color: rgb(255,255, 255);
+    font-size: 20px;
+    line-height: 45px;
+    display: block;
+    padding: 10px;
+    margin: 40px;
+    letter-spacing: 15px;
+}
+
+nav a:hover {
+    font-size: 25px;
+    box-shadow: 0 0 18px rgb(65, 65, 65);
+    margin: 20px;
+    background-color: rgb(50, 50, 50);
+}
+
+.clicked {
+    background-color: rgb(50, 50, 50);
+}
+
+#webpagenav {
+    margin-top: 40px;
+}
+
+
+/* Header CSS */
+#header {
+    z-index: 4;
+    border-radius: 5em 20em 80em 3em / 12em 6em 12em 3em;
+    background-color: rgb(40,40,40);
+    color: rgb(255,255, 255);
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    width: 40%;
+    margin-right: 250px;
+    box-shadow: 0 0 18px rgb(105, 105, 105);
+    position:fixed;
+    left: 215px;
+    top: 30px;
+}
+
+#header:hover {
+    box-shadow: 0 0 30px rgb(105, 105, 105);
+    background-color: rgb(50, 50, 50);
+}
+
+#header h1, h2 {
+    font-family: 'FjallaOne', sans-serif;
+    margin: 5px;
+    letter-spacing: 4px;
+    color: white;
+    line-height: 50px;
+}
+
+#header h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+#header h2 {
+    font-size: 20px;
+    letter-spacing: 50px;
+}
+
+.mainimage {
+    width: 120%;
+    margin-left: -10%;
+    height: auto;
+}
+
+
+/* Containers for Different Elements for the Page */
+.container {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    text-align: center;
+    z-index: 1;
+}
+
+.container h2, a {
+    font-family: 'Josefin', sans-serif;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.container h1 {
+    font-size: 35px;
+    font-family: 'FjallaOne', sans-serif;
+    letter-spacing: 12px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.container p {
+    font-family: 'Josefin', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container a {
+    border-radius: 20em 80em 5em 3em / 12em 12em 6em 3em;
+    font-family: 'FjallaOne', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.container a:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 18px #ccc;
+}
+
+.container address {
+    font-size: 20px;
+}
+
+.container legend {
+    font-size: 50px;
+}
+
+.portrait {
+    height: auto;
+    width: 50%
+}
+
+
+/* CSS for Social Links at the Bottom of the Page */
+#socials  {
+    text-align: center;
+    margin-bottom: -200px;
+    margin-top: 40px;
+    z-index: 2;
+}
+
+#socials p {
+    font-size: 25px;
+    font-family: 'DancingScript', cursive;
+}
+
+#socials a {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#addsocials {
+    display: none;
+}
+
+#showsocials:hover + #addsocials, #addsocials:hover {
+    display: block;
+}

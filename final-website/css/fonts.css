@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'FjallaOne';
+    src: url('../fonts/FjallaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url('../fonts/DancingScript-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin';
+    src: url('../fonts/JosefinSans-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
