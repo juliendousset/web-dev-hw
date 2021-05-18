@@ -1,5 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding-bottom: 0px;
 }
 
 p {
@@ -22,15 +24,30 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
-.header {
-    position: fixed;
-    right: 200px;
+@media (min-width:1300px){
+    .header {
+        position: fixed;
+        right: 200px;
+    }
+
+    .form {
+        padding: 100px 0px;
+        position: fixed;
+        right: 200px;
+    }
 }
 
-.form {
-    padding: 100px 0px;
-    position: fixed;
-    right: 200px;
+@media (max-width:1300px){
+    .header {
+        position: fixed;
+        right: 50px;
+    }
+
+    .form {
+        padding: 100px 0px;
+        position: fixed;
+        right: 50px;
+    }
 }
 
 .small {

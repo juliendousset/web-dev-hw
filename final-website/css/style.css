@@ -34,13 +34,20 @@ body {
     nav {
         width: 25%;
         left: 220px;
+        height: 480px;
     }
     nav a {
         font-size: 20px;
         letter-spacing: 15px;
+        margin: 40px;
+        padding: 10px;
     }
     nav a:hover {
         font-size: 25px;
+    }
+    
+    .container {
+        width: 80%;
     }
     .container h2, a {
         font-size: 28px;
@@ -55,16 +62,35 @@ body {
     }
     
     .container address {
-        font-size: 20px;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .container fieldset {
+        font-size: 25px;
     }
     
     .container legend {
         font-size: 50px;
     }
+
+    .container iframe {
+        height: 600px;
+    }
+
     .mainimage {
         width: 110%;
         margin-left: -5%;
         height: auto;
+    }
+    #socials img {
+        width: 90px;
+        height: auto;
+    }
+    
+    #socials p {
+        font-size: 25px;
+        font-family: 'DancingScript', cursive;
     }
 }
 
@@ -72,12 +98,12 @@ body {
 /* Website with smaller width */
 @media (max-width:1300px){
     .mainbody {
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     #header {
         width: 20%;
-        left: 25px;
+        left: 20px;
     }
     #header h1 {
         font-size: 25px;
@@ -87,23 +113,30 @@ body {
         letter-spacing: 15px;
     }
     nav {
-        width: 15%;
-        left: 30px;
+        width: 35%;
+        left: 25px;
+        height: 360px;
     }
     nav a {
         font-size: 10px;
         letter-spacing: 8px;
+        margin: 10px;
+        padding: 5px;
     }
     
     nav a:hover {
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    .container{
+        width: 90%;
     }
     .container h2, a {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .container h1 {
-        font-size: 28px;
+        font-size: 23px;
     }
     
     .container p {
@@ -111,33 +144,46 @@ body {
     }
     
     .container address {
-        font-size: 15px;
+        font-size: 20px;
     }
     
+    .container fieldset {
+        font-size: 18px;
+    }
+
     .container legend {
         font-size: 35px;
     }
+
+    .container iframe {
+        height: 400px;
+    }
+
     .mainimage {
         width: 104%;
         margin-left: -2%;
         height: auto;
     }
+    #socials img {
+        width: 60px;
+        height: auto;
+    }
+    
+    #socials p {
+        font-size: 20px;
+        font-family: 'DancingScript', cursive;
+    }
 }
 
 a {
-    font-family: 'FjallaOne', sans-serif;
-    font-size: 25px;
     text-align: center;
     text-decoration: none;
-    color: black;
 }
 
 /* Navigation Menu CSS */
 nav {
     background-color: rgb(40, 40, 40);
     position: fixed;
-    width: 25%;
-    height: 480px;
     top: 160px;
     color: white;
     box-shadow: -10px 0 6px rgb(143, 143, 143);
@@ -153,12 +199,10 @@ nav a {
     line-height: 45px;
     display: block;
     padding: 10px;
-    margin: 40px;
 }
 
 nav a:hover {
     box-shadow: 0 0 18px rgb(65, 65, 65);
-    margin: 20px;
     background-color: rgb(50, 50, 50);
 }
 
@@ -208,10 +252,9 @@ nav a:hover {
 /* Containers for Different Elements for the Page */
 .container {
     background-color: white;
-    width: 80%;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 20px;
     border-bottom: 1px solid rgb(58, 58, 58);
     text-align: center;
@@ -232,7 +275,6 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
-
 .container p {
     font-family: 'Josefin', sans-serif;
     margin-top: 20px;
@@ -241,8 +283,7 @@ nav a:hover {
 }
 
 .container a {
-    border-radius: 20em 80em 5em 3em / 12em 12em 6em 3em;
-    font-family: 'FjallaOne', sans-serif;
+    font-family: 'Josefin', sans-serif;
     text-decoration: none;
     color: white;
     background-color: black;
@@ -260,8 +301,23 @@ nav a:hover {
     width: 50%
 }
 
-iframe {
-    width: 70%;
+.container fieldset {
+    font-family: 'Josefin', sans-serif;
+}
+
+.container address {
+    font-family: 'DancingScript', cursive;
+}
+
+.container iframe {
+    width: 90%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.container img {
+    height: auto;
+    width: 80%
 }
 
 
@@ -274,7 +330,6 @@ iframe {
 }
 
 #socials p {
-    font-size: 25px;
     font-family: 'DancingScript', cursive;
 }
 
@@ -286,8 +341,5 @@ iframe {
 
 #addsocials {
     display: none;
-}
-
-#showsocials:hover + #addsocials, #addsocials:hover {
-    display: block;
+    margin-bottom: 20px;
 }
