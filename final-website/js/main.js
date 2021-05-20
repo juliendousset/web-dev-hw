@@ -16,15 +16,6 @@ function hideDropDown() {
     document.getElementById('sidebar').style.display = 'none';
 }
 
-// Functions for Home Menu
-function showHomeMenu() {
-    document.getElementById('homeadded').style.display = 'block';
-}
-
-function hideHomeMenu() {
-    document.getElementById('homeadded').style.display = 'none';
-}
-
 function normalBackgroundColor() {
     document.body.style.backgroundColor = "#f2f2f2";
     document.getElementById('mainbody').style.backgroundColor = 'white';

@@ -1,10 +1,12 @@
 body {
+    transition: all 0.5s;
     margin: 0;
     padding-bottom: 230px;
     background-color: #f2f2f2;
 }
 
 #mainbody {
+    transition: all 0.5s;
     margin-top: 10px;
     margin-right: 200px;
     margin-left: 200px;
@@ -86,6 +88,7 @@ body {
     }
 
     .container img, .container iframe {
+        transition: all 0.5s;
         width: 40%
     }
 
@@ -96,8 +99,8 @@ body {
     }
 
     .mainimage {
-        width: 110%;
-        margin-left: -5%;
+        width: 120%;
+        margin-left: -10%;
     }
 
     #socials img {
@@ -183,6 +186,7 @@ body {
     }
 
     .container img, .container iframe {
+        transition: all 0.5s;
         width: 85%
     }
 
@@ -217,11 +221,12 @@ a {
 
 /* Navigation Menu CSS */
 nav {
+    transition: all 0.5s;
     background-color: rgb(40, 40, 40);
     position: fixed;
     top: 160px;
     color: white;
-    box-shadow: -10px 0 6px rgb(143, 143, 143);
+    box-shadow: 0 0 18px rgb(105, 105, 105);
     padding-top: 60px;
     z-index: 3;
     display: none;
@@ -237,6 +242,7 @@ nav a {
 }
 
 nav a:hover {
+    transition: all 0.25s;
     box-shadow: 0 0 18px rgb(65, 65, 65);
     background-color: rgb(50, 50, 50);
 }
@@ -245,13 +251,14 @@ nav a:hover {
     background-color: rgb(50, 50, 50);
 }
 
-#webpagenav {
+#sidebar a {
     margin-top: 40px;
 }
 
 
 /* Header CSS */
 #header {
+    transition: all 0.5s;
     z-index: 4;
     border-radius: 5em 20em 80em 3em / 12em 6em 12em 3em;
     background-color: rgb(40,40,40);
@@ -267,6 +274,7 @@ nav a:hover {
 }
 
 #header:hover {
+    transition: all 0.25s;
     box-shadow: 0 0 30px rgb(105, 105, 105);
     background-color: rgb(50, 50, 50);
 }
@@ -284,13 +292,14 @@ nav a:hover {
 }
 
 .mainimage {
-    height: 350px;
+    height: 400px;
     object-fit: cover;
 }
 
 
 /* Containers for Different Elements for the Page */
 .container {
+    transition: all 0.5s;
     background-color: rgba(0,0,0,0);
     margin: auto;
     margin-top: 10px;
@@ -334,6 +343,7 @@ nav a:hover {
 }
 
 .container a:hover {
+    transition: all 0.5s;
     background-color: rgb(60, 60, 60);
     box-shadow: 0 0 18px #ccc;
 }
